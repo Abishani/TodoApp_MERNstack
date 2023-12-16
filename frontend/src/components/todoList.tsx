@@ -109,11 +109,9 @@ export const TodoList: React.FC = () => {
           <div>
             <div className="todo-input-button">
               <button className="primary-btn" type="button" onClick={save}>
-                {/* <button className="primary-btn" type="button"> */}
                 Add
               </button>
               <button className="primary-btn" type="button" onClick={update}>
-                {/* <button className="primary-btn" type="button"> */}
                 Update
               </button>
             </div>
